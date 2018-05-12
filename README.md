@@ -42,9 +42,7 @@ The directory will now contain folders named with the student's UBIT name.
 While electronic submission is useful, I find it helpful to have a physical paper to write on when grading. This script
 takes an image of the score sheet (rubric) for the current assignment (a screenshot from the assignment PDF, for example) and generates one score sheet for each student. 
 
-Edit the file paths in generate_scoresheets.py to point to the unzipped assignments directory, the image file, and an output directory for the generated .tex file. 
-
-The script will write a .tex file which can be converted to PDF with any LATEX editor. 
+Edit the file paths in generate_scoresheets.py to point to the unzipped assignments directory, the image file, and an output directory for the generated .tex file. The script will write a .tex file which can be converted to PDF with any LATEX editor. 
 
 
 ## plot_grade_distribution.m
@@ -58,6 +56,9 @@ The variable fileName should point to a CSV file containing assignment grades. T
 * Change delimiter type to Comma
 * Click Submit.
 * Edit the script to point to the downloaded file. 
+* Run the script from any standard MATLAB installation. 
+
+The figure can then be saved or printed from the MATLAB menus. 
 
 
-###### UBlearns and Blackboard Learn are copyrights of University at Buffalo and Blackboard Inc, respectively. This code is not a part of or affiliated with UB Learns.
+###### UBlearns and Blackboard Learn are copyrights of University at Buffalo and Blackboard Inc, respectively. This code is not a part of nor affiliated with UBlearns.
