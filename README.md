@@ -1,6 +1,8 @@
 # ublearns-grading-tools
-A few tools for grading assignments submitted through UB Learns. Written to make TA life just a little bit easier. 
+A few tools for grading assignments submitted through UBlearns. Written to make TA life just a little bit easier. 
+
 Don't expect this code to run perfectly. Always double check. 
+
 
 
 
@@ -19,6 +21,7 @@ Some courses have students upload a compressed file containing code, figures, a 
 This utility will create a folder for each student (by UBIT name) into which the contents of their submitted file will be exctracted. 
 
 To run SRC_DIR should be a .zip containing all assignments submitted by all students. 
+
 This file can be found through Grade Center:
 
 * In UB Learns, go to Full Grade Center. 
@@ -57,3 +60,4 @@ The variable fileName should point to a CSV file containing assignment grades. T
 * Edit the script to point to the downloaded file. 
 
 
+###### UBlearns and Blackboard Learn are copyrights of University at Buffalo and Blackboard Inc, respectively. This code is not a part of or affiliated with UB Learns.
